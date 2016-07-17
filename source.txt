@@ -1,1 +1,88 @@
-init repo
+Private Sub CommandButton1_Click()
+Cells.RowHeight = 18
+Cells.ColumnWidth = 3
+c = vbBlack
+For i = 2 To 8
+Cells(2, i).Interior.Color = c
+Cells(8, i).Interior.Color = c
+Cells(2, i + 14).Interior.Color = c
+Cells(8, i + 14).Interior.Color = c
+Cells(16, i).Interior.Color = c
+Cells(22, i).Interior.Color = c
+Cells(i, 2).Interior.Color = c
+Cells(i, 8).Interior.Color = c
+Cells(i, 16).Interior.Color = c
+Cells(i, 22).Interior.Color = c
+Cells(i + 14, 2).Interior.Color = c
+Cells(i + 14, 8).Interior.Color = c
+Next i
+For i = 4 To 6
+For j = 4 To 6
+Cells(i, j).Interior.Color = c
+Cells(i + 14, j).Interior.Color = c
+Cells(i, j + 14).Interior.Color = c
+Next j
+Next i
+Range(Cells(3, 14), Cells(9, 14)).Interior.Color = c
+Range(Cells(2, 13), Cells(4, 13)).Interior.Color = c
+Range(Cells(7, 12), Cells(13, 12)).Interior.Color = c
+Range(Cells(12, 7), Cells(12, 11)).Interior.Color = c
+Range(Cells(14, 3), Cells(14, 6)).Interior.Color = c
+Range(Cells(17, 12), Cells(17, 15)).Interior.Color = c
+Range(Cells(19, 18), Cells(19, 22)).Interior.Color = c
+Range(Cells(20, 17), Cells(22, 18)).Interior.Color = c
+Range(Cells(16, 17), Cells(17, 18)).Interior.Color = c
+Range(Cells(11, 19), Cells(14, 19)).Interior.Color = c
+Range(Cells(17, 22), Cells(20, 22)).Interior.Color = c
+Range(Cells(11, 22), Cells(13, 22)).Interior.Color = c
+Range(Cells(13, 10), Cells(15, 10)).Interior.Color = c
+'' two
+Range(Cells(10, 2), Cells(11, 2)).Interior.Color = c
+Range(Cells(12, 3), Cells(13, 3)).Interior.Color = c
+Range(Cells(10, 7), Cells(10, 8)).Interior.Color = c
+Range(Cells(4, 11), Cells(5, 11)).Interior.Color = c
+Range(Cells(7, 10), Cells(8, 10)).Interior.Color = c
+Range(Cells(13, 6), Cells(13, 7)).Interior.Color = c
+Range(Cells(11, 16), Cells(11, 17)).Interior.Color = c
+Range(Cells(12, 14), Cells(12, 15)).Interior.Color = c
+Range(Cells(16, 11), Cells(16, 12)).Interior.Color = c
+Range(Cells(18, 12), Cells(18, 13)).Interior.Color = c
+Range(Cells(22, 13), Cells(22, 14)).Interior.Color = c
+Range(Cells(21, 15), Cells(21, 16)).Interior.Color = c
+Range(Cells(13, 21), Cells(14, 21)).Interior.Color = c
+Range(Cells(16, 20), Cells(16, 21)).Interior.Color = c
+'' one
+Cells(2, 11).Interior.Color = c
+Cells(3, 12).Interior.Color = c
+Cells(5, 12).Interior.Color = c
+Cells(7, 13).Interior.Color = c
+Cells(9, 13).Interior.Color = c
+Cells(13, 13).Interior.Color = c
+Cells(15, 13).Interior.Color = c
+Cells(19, 13).Interior.Color = c
+Cells(10, 5).Interior.Color = c
+Cells(10, 10).Interior.Color = c
+Cells(10, 15).Interior.Color = c
+Cells(10, 17).Interior.Color = c
+Cells(11, 6).Interior.Color = c
+Cells(11, 11).Interior.Color = c
+Cells(11, 21).Interior.Color = c
+Cells(12, 5).Interior.Color = c
+Cells(12, 20).Interior.Color = c
+Cells(13, 9).Interior.Color = c
+Cells(14, 8).Interior.Color = c
+Cells(14, 11).Interior.Color = c
+Cells(14, 14).Interior.Color = c
+Cells(14, 16).Interior.Color = c
+Cells(15, 22).Interior.Color = c
+Cells(16, 15).Interior.Color = c
+Cells(17, 10).Interior.Color = c
+Cells(18, 16).Interior.Color = c
+Cells(19, 10).Interior.Color = c
+Cells(20, 11).Interior.Color = c
+Cells(20, 14).Interior.Color = c
+Cells(21, 12).Interior.Color = c
+Cells(22, 10).Interior.Color = c
+Cells(22, 19).Interior.Color = c
+Cells(22, 21).Interior.Color = c
+End Sub
