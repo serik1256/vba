@@ -1,4 +1,5 @@
 Private Sub CommandButton1_Click()
+'Set square shape of cells
 Cells.RowHeight = 18
 Cells.ColumnWidth = 3
 c = vbBlack
